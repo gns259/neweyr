@@ -11,20 +11,6 @@ body {
     padding: 0;
 }
 
-/* Footer styling */
-.footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
-.footer p {
-    font-size: 14px;
-}
 
 /* Mobile responsive design adjustments */
 @media (max-width: 600px) {
