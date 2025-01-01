@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy New Year 2025 - Password Protected</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 Your Company | All Rights Reserved</p>
+        <p><pre><b>privacy policy  copyright</b></pre> </p>
+    </footer>
+
+    <div id="content" class="hidden">
+        <div class="container">
+            <h1 id="gns"> </h1>
+            <h1 id="new-year-message">🎉 Happy New Year 2025! 🎉</h1>
+            <p class="message">Wishing you a year full of joy, success, and wonderful moments!</p>
+            <h2 id="thanks"></h2>
+            <button onclick="changeMessage()">Click for Surprise</button>
+        </div>
+    </div>
+
+    <div id="password-container">
+        <label for="password">Enter Password to Access the Site:</label>
+        <input type="password" id="password" placeholder="Enter Password">
+        <button onclick="checkPassword()">Submit</button>
+        <p id="error-message" style="color: red; display: none;">Incorrect password. Please try again.</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
